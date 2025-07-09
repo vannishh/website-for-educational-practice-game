@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название игры</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .description {
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        .screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .screenshot {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .video-container {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .download {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #2ecc71;
+        }
+        .developers {
+            background-color: #ecf0f1;
+            padding: 30px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Название игры</h1>
+            <p>Жанр: (например, экшен, RPG, стратегия)</p>
+        </header>
+
+        <section class="description">
+            <h2>О игре</h2>
+            <p>
+                Здесь будет краткое описание вашей игры. Расскажите, в чем ее суть, какие есть особенности, 
+                чем она отличается от других. Опишите игровой процесс, сеттинг, основные механики.
+                Например: "Захватывающая приключенческая игра в открытом мире, где вы играете за..."
+            </p>
+            <p>
+                Основные особенности:
+                <ul>
+                    <li>Особенность 1 (например, "Открытый мир с динамической сменой времен года")</li>
+                    <li>Особенность 2 (например, "Глубокая система прокачки персонажа")</li>
+                    <li>Особенность 3 (например, "Уникальная боевая система")</li>
+                </ul>
+            </p>
+        </section>
+
+        <section class="screenshots">
+            <h2>Скриншоты</h2>
+            <div class="screenshots">
+                <img src="screenshot1.jpg" alt="Скриншот игры 1" class="screenshot">
+                <img src="screenshot2.jpg" alt="Скриншот игры 2" class="screenshot">
+                <img src="screenshot3.jpg" alt="Скриншот игры 3" class="screenshot">
+            </div>
+        </section>
+
+        <section class="video-container">
+            <h2>Трейлер игры</h2>
+            <!-- Замените ссылку на ваше видео -->
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/ВАШЕ_ВИДЕО" 
+                    frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section class="download">
+            <h2>Скачать игру</h2>
+            <p>Версия 1.0 | Размер: XX MB | Платформы: Windows, Mac (или другие)</p>
+            <a href="#" class="download-btn">Скачать сейчас</a>
+            <p>Минимальные системные требования: (укажите здесь)</p>
+        </section>
+
+        <section class="developers">
+            <h2>О разработчиках</h2>
+            <p>
+                Название вашей студии или ваше имя, если вы независимый разработчик.
+                Кратко расскажите о себе/студии, предыдущих проектах, философии разработки.
+            </p>
+            <p>
+                Контакты: 
+                <br>Email: ваш@email.com
+                <br>Соцсети: (ссылки)
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Название игры. Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+</html>
